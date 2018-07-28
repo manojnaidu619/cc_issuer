@@ -1,15 +1,15 @@
 # CC_issuer
 A gem to find out issuer of the credit card just by entering the Card Number. Currently supports..
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" heigth="100px" width="100px" />
-<img src="https://securecdn.pymnts.com/wp-content/uploads/2014/03/Discover-logo-e1416429693676.jpg" heigth="100px" width="100px" />
-<img src="https://www.underconsideration.com/brandnew/archives/american_express_logo_wordmark_detail.png" heigth="200px" width="100px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" heigth="100px" width="100px" />
-<img src="https://www.datatrans.ch/userobjects/4503_3636_ms_acc.png" heigth="100px" width="100px" />
-<img src="http://www.extrapackofpeanuts.com/wp-content/uploads/2013/03/carte-blanche-logo.jpg" heigth="100px" width="100px" />
-<img src="https://vignette.wikia.nocookie.net/logopedia/images/2/28/DinersClub1950.png/revision/latest?cb=20171213151438" heigth="100px" width="100px" />
-<img src="https://cdn.freebiesupply.com/logos/large/2x/enroute-card-logo-png-transparent.png" heigth="100px" width="100px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" style="float: right;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" heigth="100px" width="100px" style="float: right;"/>
+<img src="https://securecdn.pymnts.com/wp-content/uploads/2014/03/Discover-logo-e1416429693676.jpg" heigth="100px" width="100px" style="float: right;"/>
+<img src="https://www.underconsideration.com/brandnew/archives/american_express_logo_wordmark_detail.png" heigth="200px" width="100px" style="float: right;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" heigth="100px" width="100px" style="float: right;" />
+<img src="https://www.datatrans.ch/userobjects/4503_3636_ms_acc.png" heigth="100px" width="100px" style="float: right;" />
+<img src="http://www.extrapackofpeanuts.com/wp-content/uploads/2013/03/carte-blanche-logo.jpg" heigth="100px" width="100px" style="float: right;"/>
+<img src="https://vignette.wikia.nocookie.net/logopedia/images/2/28/DinersClub1950.png/revision/latest?cb=20171213151438" heigth="100px" width="100px" style="float: right;"/>
+<img src="https://cdn.freebiesupply.com/logos/large/2x/enroute-card-logo-png-transparent.png" heigth="100px" width="100px" style="float: right;"/>
 
 
 ## How To Install?
