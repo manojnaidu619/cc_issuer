@@ -6,12 +6,12 @@ require "cc_issuer/version"
 Gem::Specification.new do |spec|
   spec.name          = "cc_issuer"
   spec.version       = CcIssuer::VERSION
-  spec.authors       = ["Manoj"]
+  spec.authors       = ["Manoj Naidu"]
   spec.email         = ["manojnaidu619@gmail.com"]
 
-  spec.summary       = %q{}
+  spec.summary       = %q{Could able to get the issuer of Credit/Debit card}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/manojnaidu619/cc_issuer"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

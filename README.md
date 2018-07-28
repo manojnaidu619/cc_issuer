@@ -1,10 +1,18 @@
-# CcIssuer
+# CC_issuer
+A gem to find out issuer of the credit card just by entering the Card Number. Currently supports..
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cc_issuer`. To experiment with that code, run `bin/console` for an interactive prompt.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" heigth="100px" width="100px" />
+<img src="https://securecdn.pymnts.com/wp-content/uploads/2014/03/Discover-logo-e1416429693676.jpg" heigth="100px" width="100px" />
+<img src="https://www.underconsideration.com/brandnew/archives/american_express_logo_wordmark_detail.png" heigth="200px" width="100px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" heigth="100px" width="100px" />
+<img src="https://www.datatrans.ch/userobjects/4503_3636_ms_acc.png" heigth="100px" width="100px" />
+<img src="http://www.extrapackofpeanuts.com/wp-content/uploads/2013/03/carte-blanche-logo.jpg" heigth="100px" width="100px" />
+<img src="https://vignette.wikia.nocookie.net/logopedia/images/2/28/DinersClub1950.png/revision/latest?cb=20171213151438" heigth="100px" width="100px" />
+<img src="https://cdn.freebiesupply.com/logos/large/2x/enroute-card-logo-png-transparent.png" heigth="100px" width="100px" />
 
-TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## How To Install?
 
 Add this line to your application's Gemfile:
 
@@ -14,30 +22,67 @@ gem 'cc_issuer'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
-Or install it yourself as:
+OR install it yourself as:
 
     $ gem install cc_issuer
 
 ## Usage
 
-TODO: Write usage instructions here
+ ```ruby
+require 'cc_issuer'
+'4444 4444 4444 4444'.cci?   # => Visa
+```
+> Where, 4444 4444 4444 4444 is to be replaced by your Card Number
+##### Even works like this...
 
-## Development
+```ruby
+require 'cc_issuer'
+'4444444444444444'.cci?   # => Visa
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```ruby
+require 'cc_issuer'
+'4444-4444-4444-4444'.cci?   # => Visa
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Where, `cci?` refers to Credit Card Issuer?
+
+#### These are some of the supported plugins
+
+| Card Issuer       | Key Value |
+| ------------- |:-------------:|
+| Mastercard      | `:mastercard?`|
+| Visa      | `:visa?`|
+| Discover | `:discover?`|
+| American Express | `:amex?`|
+| Japan credit bureau | `:jcb?`|
+| Maestro | `:maestro?` |
+| DC Carte Blanche | `:dccb?` |    
+| DC International | `:dci?` |
+| Enroute | `:enroute?` |
+
+##### Examples :
+
+```ruby
+require 'cc_issuer'
+'4444-4444-4444-4444'.visa?   # => true
+```
+```ruby
+require 'cc_issuer'
+'4444-4444-4444-4444'.maestro?   # => false
+```
+> Where, 4444-4444-4444-4444 is to be replaced by your Card Number
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cc_issuer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the Branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the CcIssuer project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/cc_issuer/blob/master/CODE_OF_CONDUCT.md).
