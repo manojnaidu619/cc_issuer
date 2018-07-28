@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["manojnaidu619@gmail.com"]
 
   spec.summary       = %q{Could able to get the issuer of Credit/Debit card}
-  spec.description   = %q{}
+  spec.description   = %q{Ruby gem to find issuer of the Credit Card}
   spec.homepage      = "https://github.com/manojnaidu619/cc_issuer"
   spec.license       = "MIT"
 
