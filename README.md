@@ -1,4 +1,7 @@
 # CC_issuer
+
+[![Build Status](https://travis-ci.org/manojnaidu619/cc_issuer.svg?branch=master)](https://travis-ci.org/manojnaidu619/cc_issuer)
+
 A gem to find out issuer of the credit card just by entering the Card Number. Currently supports..
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" style="float: right;" />
