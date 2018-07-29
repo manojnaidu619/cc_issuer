@@ -2,11 +2,9 @@ require "cc_issuer/version"
 
 class String
   def cci?
-    if self =~ /[a-zA-Z[<>%\$~``!@#^&*()+=?;:{}\|''""'"]]/
-         puts "Invalid Card Number"
-    else
+    if self =~ /[a-zA-Z[<>%\$~``!@#^&*()+=?;:{}\|''""'"]]/ then puts "Invalid Card Number" else
              sanitize()
-             if self =~ /^4/ and self.length >= 13 and self.length <= 16
+             if self =~ /^4\d/ and self.length >= 12 and self.length <= 16
                  puts "Visa"
              elsif self =~ /^(5|2)[1-5][0-9]/ and self.length.eql?(16)
                  puts "Mastercard"
@@ -37,7 +35,7 @@ class String
 
   def visa?
        sanitize()
-       self =~ /^4/ && self.length >= 13 && self.length <= 16 ? true : false
+       self =~ /^4[0-9]/ && self.length >= 12 && self.length <= 16 ? true : false
   end
 
   def mastercard?
