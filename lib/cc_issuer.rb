@@ -35,7 +35,7 @@ class String
 
   def visa?
        sanitize()
-       self =~ /^4[0-9]/ && self.length >= 12 && self.length <= 16 ? true : false
+       self =~ /^4[0-9]/ && self.length.eql?(13) || self.length.eql?(16)  ? true : false
   end
 
   def mastercard?
