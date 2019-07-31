@@ -5,19 +5,11 @@
 [![Gem Version](https://badge.fury.io/rb/cc_issuer.svg)](https://badge.fury.io/rb/cc_issuer)
 [![Gem](https://img.shields.io/gem/v/cc_issuer.svg?style=flat)](http://rubygems.org/gems/cc_issuer "View this project in Rubygems")
 
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/manojnaidu619)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/manojnaidu619/cc_issuer/pulls) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/manojnaidu619)
 
 A gem to find out issuer of the credit card just by entering the Card Number. Currently supports..
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" style="float: right;" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" heigth="100px" width="100px" style="float: right;"/>
-<img src="https://securecdn.pymnts.com/wp-content/uploads/2014/03/Discover-logo-e1416429693676.jpg" heigth="100px" width="100px" style="float: right;"/>
-<img src="https://www.underconsideration.com/brandnew/archives/american_express_logo_wordmark_detail.png" heigth="200px" width="100px" style="float: right;"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" heigth="100px" width="100px" style="float: right;" />
-<img src="https://www.datatrans.ch/userobjects/4503_3636_ms_acc.png" heigth="100px" width="100px" style="float: right;" />
-<img src="http://www.extrapackofpeanuts.com/wp-content/uploads/2013/03/carte-blanche-logo.jpg" heigth="100px" width="100px" style="float: right;"/>
-<img src="https://vignette.wikia.nocookie.net/logopedia/images/2/28/DinersClub1950.png/revision/latest?cb=20171213151438" heigth="100px" width="100px" style="float: right;"/>
-<img src="https://cdn.freebiesupply.com/logos/large/2x/enroute-card-logo-png-transparent.png" heigth="100px" width="100px" style="float: right;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" heigth="100px" width="100px" style="float: right;" /> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" heigth="100px" width="100px" style="float: right;"/> <img src="https://securecdn.pymnts.com/wp-content/uploads/2014/03/Discover-logo-e1416429693676.jpg" heigth="100px" width="100px" style="float: right;"/> <img src="https://www.underconsideration.com/brandnew/archives/american_express_logo_wordmark_detail.png" heigth="200px" width="100px" style="float: right;"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1200px-JCB_logo.svg.png" heigth="100px" width="100px" style="float: right;" /> <img src="https://www.datatrans.ch/userobjects/4503_3636_ms_acc.png" heigth="100px" width="100px" style="float: right;" /> <img src="http://www.extrapackofpeanuts.com/wp-content/uploads/2013/03/carte-blanche-logo.jpg" heigth="100px" width="100px" style="float: right;"/> <img src="https://vignette.wikia.nocookie.net/logopedia/images/2/28/DinersClub1950.png/revision/latest?cb=20171213151438" heigth="100px" width="100px" style="float: right;"/> <img src="https://cdn.freebiesupply.com/logos/large/2x/enroute-card-logo-png-transparent.png" heigth="100px" width="100px" style="float: right;"/>
 
 
 ## How To Install?
@@ -83,13 +75,7 @@ require 'cc_issuer'
 ```
 > Where, 4444-4444-4444-4444 is to be replaced by your Card Number
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the Branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/manojnaidu619/cc_issuer/pulls)
 
 ## License
 
