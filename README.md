@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/manojnaidu619/cc_issuer.svg?branch=master)](https://travis-ci.org/manojnaidu619/cc_issuer)
 [![Coverage Status](https://coveralls.io/repos/github/manojnaidu619/cc_issuer/badge.svg?branch=master)](https://coveralls.io/github/manojnaidu619/cc_issuer?branch=master)
 [![Gem Version](https://badge.fury.io/rb/cc_issuer.svg)](https://badge.fury.io/rb/cc_issuer)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/manojnaidu619)
 
 A gem to find out issuer of the credit card just by entering the Card Number. Currently supports..
 
